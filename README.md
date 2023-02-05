@@ -6,7 +6,7 @@ name: ml
 channels:
 - pytorch
 - nvidia
-  dependencies:
+dependencies:
 - pip
 - matplotlib
 - pytorch
