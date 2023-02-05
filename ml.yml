@@ -1,0 +1,14 @@
+name: ml
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - pip
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - jupyter
+  - pip:
+     - functorch
