@@ -1,0 +1,9 @@
+Some notes to keep track of what I am doing...
+
+1) Increasing the width of the network makes it easier for both back-prop and signal-prop to find good minimas.
+    1.a) This agrees with the ideas proposed in reservoir computing and predictions about the shape of the loss landscape.
+    1.b) Signal-prop has (apparently) aharder time optimizing narrow NNs than back-prop.
+2) Increasing the depth of the network (to an extend) makes it easier for back-prop to find good minimas.
+    2.a) It is not clear how this affects signal-prop, but it is clear the subsequent layers of same type (i.e. linear
+    transformation and same activation function) improve upon the encodings of the previous layer. To which extend they
+    do this is not clear.
